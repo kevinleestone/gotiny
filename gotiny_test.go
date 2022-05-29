@@ -13,7 +13,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/niubaoshu/gotiny"
+	"github.com/kevinleestone/gotiny"
 	"github.com/niubaoshu/goutils"
 )
 
