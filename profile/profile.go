@@ -9,7 +9,7 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/niubaoshu/gotiny"
+	"github.com/kevinleestone/gotiny"
 	"github.com/niubaoshu/goutils"
 )
 

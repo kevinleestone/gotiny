@@ -44,7 +44,8 @@ type refVal struct {
 
 type flag uintptr
 
-//go:linkname flagIndir reflect.flagIndir
+// KEVIN: removed the following directive to fix golang 1.18 compile issue
+//  //go:linkname flagIndir reflect.flagIndir
 const flagIndir flag = 1 << 7
 
 func getUnsafePointer(rv *reflect.Value) unsafe.Pointer {

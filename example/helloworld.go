@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/niubaoshu/gotiny"
+	"github.com/kevinleestone/gotiny"
 )
 
 func main() {
